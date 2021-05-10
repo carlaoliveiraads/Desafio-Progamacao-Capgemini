@@ -158,7 +158,7 @@ button {
 }
 
 button:hover {
-    background-color: #c8e1f1;
+    background-color: #72add1;
     color: rgb(54, 50, 50);
 }
 
@@ -307,7 +307,7 @@ button:hover {
         margin: 0 16px;
     }
 
-   
+  
     /* MAIN -------- MAIN --------- MAIN*/
 
     label {

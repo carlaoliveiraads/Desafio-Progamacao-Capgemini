@@ -66,39 +66,40 @@
                         <h5>Calcule o valor do seu anúncio</h5>
                     </div>
                     <div class="formulario">
-                        <form>
+                        <form action="" onsubmit="calculadora(event)">
                             <div class="input-text">
                                 <label for="">Nome do Anúncio:</label>
-                                <input type="text" class="anuncio" placeholder="Insira aqui o nome do seu anúncio">
+                                <input type="text" class="anuncio"  id="anuncio" placeholder="Insira aqui o nome do seu anúncio">
                             </div>
                             <div class="input-text">
                                 <label >Cliente:</label>
-                                <input type="text" class="cliente" placeholder="Pessoa Física ou Jurídica"> 
+                                <input type="text" id="cliente" class="cliente" placeholder="Pessoa Física ou Jurídica"> 
                             </div>
                             <div class="outros-inputs">
                                 <div class="input-data">
                                     <div>
                                         <label for="">Data de Início:</label>
-                                        <input type="date">
+                                        <input type="date" id="data-inicio" >
                                     </div>
                                     <div>
                                         <label for="">Data de Término:</label>
-                                        <input type="date">
+                                        <input type="date" id="data-fim" >
                                     </div>
                                 </div>
                                 <div class="input-invest">
                                     <label for="">Investimento Diário: </label>
-                                    <input type="number" placeholder="Insira em reais o valor  que deseja investir">
+                                    <input type="number" id="investimento" placeholder="Insira em reais o valor  que deseja investir">
                                 </div>
                             </div>
-                           
+                            <div class="botao">
+                                <button type="submit">Calcular Anúncio</button>
+                           </div>
                         </form>
-                        <div class="botao">
-                             <button type="submit">Calcular Anúncio</button>
-                        </div>
                     </div>
                 </div>
-                        
+                <div id="relatorio" class="relatorio">
+
+                </div>  
             </section>
             <section>
                 <div class="autora">
@@ -113,6 +114,7 @@
         <footer class="rodape">
             <div class="rodape__principal"></div>
             <div class="redes-socias">
+            
                 <a href="https://github.com/carlaoliveiraads" target="_blank">
                     <img class="redes"
                         src="../Imagens/github.gif"
@@ -145,6 +147,7 @@
             </div>
         </footer>
 
-        <script src="js/script.js"></script>
+        <script src="../Js/sistema-calculadora.js"></script>
     </body>
 </html>
+
