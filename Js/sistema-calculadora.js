@@ -30,6 +30,10 @@ function calculadora(event) {
     let dataFinal = document.getElementById("data-fim").value;
     let totalDias = calcularData(dataInicial, dataFinal);
 
+    //Tratamento se caso o investimento for apenas de um dia
+    if(totalDias === 0){
+        totalDias = 1
+    }
     //Tratamento de erro para campos vazios
 
     if (valorInformado === "") {
@@ -40,21 +44,21 @@ function calculadora(event) {
         alert("Digite a data de término do anúncio");
     } else {
         document.getElementById("relatorio").innerHTML += `
-      <h5>Relatório de Anúncios</h5>
-      <ul>
-        <li><strong>Valor Total Investido:</strong> ${
+      <h4>Relatório:</h4>
+      <ul class="relatorio">
+        <li><strong>Total Investido:</strong> ${
             (totalDias * valorFormatado).toLocaleString("pt-BR", {
                 style: "currency",
                 currency: "BRL",
             })
         }</li>
-        <li><strong>Quantidade Total de Visualizações:</strong> ${
+        <li><strong>Total de Visualizações:</strong> ${
             numeroPessoasVisualizam * totalDias
         }</li>
-        <li><strong>Quantidade Total de Cliques:</strong> ${
+        <li><strong>Total de Cliques:</strong> ${
             numeroPessoasClicam * totalDias
         }</li>
-        <li><strong>Quantidade Total de Compartilhamentos:</strong> ${
+        <li><strong>Total de Compartilhamentos:</strong> ${
             numeroPessoasCompartilham * totalDias
         }</li>
       </ul>

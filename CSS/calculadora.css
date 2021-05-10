@@ -162,6 +162,28 @@ button:hover {
     color: rgb(54, 50, 50);
 }
 
+/* ---  RELATORIO --- */
+
+h4{
+    text-align: center;
+    margin-top:12px;
+}
+.relatorio{
+    background-color: #91aad3;
+    margin: 0 auto;
+    max-width: 960px;
+    margin: 15px;
+    width: 90%;
+    max-width: 960px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+li{
+    font-size:12px;
+    margin:8px;
+}
+
 /* --- FOOTER --- */
 
 .rodape {
@@ -287,6 +309,29 @@ button:hover {
         justify-content: center;
     }
 
+    
+/* ---  RELATORIO --- */
+
+h4{
+    font-size:20px;
+}
+.relatorio{
+    margin-bottom:30px;
+    margin-right:10px;
+    width: 95%;
+   
+}
+ul{
+    text-align: justify;
+        
+}
+
+li{
+    font-size:16px;
+    margin:15px 80px;
+}
+
+
     /* --- FOOTER --- */
 
     .redes {
@@ -349,7 +394,7 @@ button:hover {
     }
 
     button {
-     
+        margin-bottom:40px;
         height: 40px;
         box-shadow: 3px 3px rgb(116, 114, 114);
     }
@@ -362,3 +407,20 @@ button:hover {
     span{
         color: #292a2a;
     }
+
+    /* ---  RELATORIO --- */
+
+h4{
+    font-size:25px;
+}
+
+.relatorio{
+    margin-bottom:50px;
+    align-items: center;
+}
+
+
+li{
+    font-size:18px;
+    margin:15px 80px;
+}
