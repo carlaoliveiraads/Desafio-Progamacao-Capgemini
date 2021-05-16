@@ -16,7 +16,7 @@ Este programa será composto de duas partes:
 
 ---
  
-#### [Parte 01:](https://github.com/carlaoliveiraads/Desafio-Progamacao-Capgemini/blob/master/Parte%2001/calculadora.js)
+#### [Parte 01:](https://github.com/carlaoliveiraads/Desafio-Progamacao-Capgemini/tree/master/Parte%2001)
 
 Baseados em dados de análise de anúncios anteriores, a agência tem os seguintes dados:
 
@@ -43,7 +43,7 @@ A partir destes dados foram levantados os requisitos de negócio da empresa de a
 -	Requisito Nº 5 (RN5):  o mesmo anúncio é compartilhado no máximo 4 vezes em sequência (1ª pessoa -> compartilha -> 2ª pessoa -> compartilha - > 3ª pessoa -> compartilha -> 4ª pessoa)
 
 
- Foi criado um script construído com a linguagem javascript que recebeu o nome de [calculadora.js.] 
+ Foi criado um script construído com a linguagem javascript que recebeu o nome de [calculadora.js.](https://github.com/carlaoliveiraads/Desafio-Progamacao-Capgemini/blob/master/Parte%2001/calculadora.js)
 
   Essa calculadora recebe o valor investido em reais ( o valor só poderá ser um valor inteiro). 
 
@@ -51,7 +51,9 @@ A partir destes dados foram levantados os requisitos de negócio da empresa de a
  
 
 1-	Foi criada uma variável chamada calculadora que receberá a função que será declarada logo em seguida;
+
 2-	A função calculadora receberá o valor informado, o qual será transformado em uma variável chamada valor formatado, para que o número inserido retorne no formato desejado.
+
 3-	Ainda dentro da função calculadora foram declaradas as seguintes variáveis :
 
 -  Número de pessoas que visualizam que receberá o valor informado * 30;
